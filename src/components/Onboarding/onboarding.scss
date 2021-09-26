@@ -1,0 +1,55 @@
+.onboarding {
+  display: flex;
+  height: 6.8rem;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid rgb(230, 224, 224);
+
+  &__logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo-text {
+    color: #111;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 6.8rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+  }
+
+  &__img {
+    width: 4rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+  }
+
+  &__account {
+    position: absolute;
+    right: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+
+    &--text {
+      font-size: 1.6rem;
+      color: rgb(177, 171, 171);
+      cursor: pointer;
+    }
+
+    &--link {
+      background: #e8e8e8;
+      font-size: 1.6rem;
+      padding: 1rem;
+      margin-left: 1rem;
+      color: #464444;
+      text-decoration: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  }
+}

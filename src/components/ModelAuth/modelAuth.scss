@@ -1,0 +1,106 @@
+.model-auth {
+  &__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  &__main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 48.5rem;
+    height: 50.8rem;
+    border-radius: 5px;
+  }
+
+  &__content {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+  }
+
+  &__header {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 4.8rem;
+    height: 4.8rem;
+    margin-bottom: 1.5rem;
+
+    width: 100%;
+    border: none;
+    outline: none;
+
+    background: #4267b2;
+    color: #fff;
+    border-color: #4267b2;
+    border-radius: 3px;
+    font-weight: 900;
+    font-size: 1.8rem;
+    i {
+      font-size: 3rem;
+      margin-right: 1rem;
+    }
+  }
+
+  &__fb:hover {
+    background-color: #5074be;
+  }
+
+  &__apple {
+    background-color: #1a1a1a;
+    &:hover {
+      background-color: #2e2e2e;
+    }
+  }
+
+  &__login {
+    background-color: #05a081;
+    &:hover {
+      background-color: #06b995;
+    }
+  }
+
+  &--or {
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+
+  &--input {
+    display: block;
+    width: 100%;
+    height: 4.8rem;
+    border: 1px solid lightgray;
+    outline: none;
+    padding: 1.5rem;
+    margin: 1rem 0;
+
+    &:hover {
+      border: 1px solid #5074be;
+    }
+  }
+
+  &--forgot {
+    text-align: center;
+    font-size: 1.2rem;
+    opacity: 0.75;
+    margin-top: 3rem;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

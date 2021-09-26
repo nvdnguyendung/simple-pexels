@@ -1,0 +1,27 @@
+.load-more {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__textPre,
+  &__textNext {
+    width: 8rem;
+    text-align: center;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
+    text-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    background-color: #333;
+    color: #fff;
+  }
+
+  &__textPre {
+    margin-right: 1rem;
+  }
+  &__textNext {
+    margin-left: 1rem;
+  }
+}

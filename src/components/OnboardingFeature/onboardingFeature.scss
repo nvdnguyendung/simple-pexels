@@ -1,0 +1,46 @@
+.onboarding-feature {
+  width: 37.8rem;
+  height: 38.2rem;
+  padding: 1rem;
+
+  border: 1px dashed gray;
+  border-radius: 1rem;
+
+  &__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    img {
+      object-fit: cover;
+      width: 100%;
+      border-radius: 1rem;
+    }
+  }
+
+  &-text {
+    font-size: 1.8rem;
+    opacity: 0.75;
+    padding: 3.2rem 5.6rem;
+    text-align: center;
+  }
+
+  &__btn {
+    margin: 0 auto;
+    display: inline-block;
+    width: 33.4rem;
+    height: 4rem;
+    line-height: 4rem;
+
+    background: #05a081;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: white;
+  }
+
+  &__btn:hover {
+    background: #06b995;
+  }
+}

@@ -1,0 +1,56 @@
+.nav {
+  height: 6rem;
+  background: white;
+
+  &__main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0.6;
+    border-bottom: 1px solid #ccc;
+  }
+
+  &__menu {
+    white-space: nowrap;
+
+    height: 100%;
+    line-height: 6rem;
+    text-align: center;
+  }
+
+  &__item {
+    list-style: none;
+    display: inline-block;
+    height: 100%;
+  }
+
+  &__link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #111;
+
+    padding: 0 2rem;
+    line-height: 6rem;
+  }
+
+  &__link:hover {
+    color: #0c6bf9;
+  }
+
+  &__active {
+    border-bottom: 3px solid #0c6bf9;
+  }
+}
+
+@media (max-width: 639px) {
+  .nav {
+    &__menu {
+      width: 100%;
+      height: 100%;
+      overflow-x: scroll;
+    }
+  }
+}
